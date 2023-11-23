@@ -1,7 +1,5 @@
 <?php 
 
-$password_length = $_GET['password_length'];
-
 function randomPassword($password_length) {
     $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@!"£$%&=?^*+#°§-_';
     $pass = array(); 
@@ -13,6 +11,5 @@ function randomPassword($password_length) {
     return implode($pass); 
 }
 
-// var_dump(randomPassword($password_length));
-$password = randomPassword($password_length);
+
 ?>
