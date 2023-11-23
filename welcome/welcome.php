@@ -23,6 +23,7 @@ $password = $_SESSION['password'] ?? '';
 <body>
     <div class="container container my-5 py-5">
         <p class="my-5">Ecco qui la tua password generata: <span class="bg-danger text-white py-2 px-4"><?php echo $password; ?></span></p>
+        <p class="my-5">La password è lunga <?php echo strlen($password); ?> caratteri!</p>
         <form action="../index.php">
             <input type="submit" value="Indietro">
         </form>

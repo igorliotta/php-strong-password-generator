@@ -30,7 +30,7 @@ if (isset($_GET['password_length'])) {
 
 <body>
     <div class="container-lg my-5 py-5">
-        <h1 class="p-3 mb-2 bg-primary text-white text-center">GENERATORE DI PASSWORD</h1>
+        <h1 class="p-3 mb-2 bg-primary text-white text-center">GENERATORE DI PASSWORD (SICURE)</h1>
         <form action="" method="get" class="p-3 mb-2 bg-warning text-white text-center">
             <input type="number" name="password_length" placeholder="Inserisci la lunghezza della password">
             <input type="submit" value="Genera">
